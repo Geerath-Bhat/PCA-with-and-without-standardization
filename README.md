@@ -10,3 +10,11 @@ The code then plots the data points in the space of the first and second princip
 Finally, the code repeats the PCA analysis using the original unstandardized data. The resulting plot shows the data points in the space of the first and second PCs without standardization.
 
 The difference between PCA with and without standardization is that PCA on standardized data ensures that each feature is on the same scale, which can improve the accuracy of the PCA results. Without standardization, the PCA results may be biased towards features with higher variances, which could lead to incorrect conclusions. In this code, you can see how the data points look in different principal component spaces with and without standardization.
+
+PCA without standardization:
+----
+![PCA without standardization](https://user-images.githubusercontent.com/101024664/224537544-3274276c-cc05-4717-9b35-3cdd72370c41.png)
+----
+PCA with standardization:
+-----
+![PCA with standardization](https://user-images.githubusercontent.com/101024664/224537581-3cbffd73-e29d-451e-9188-a10006a1e53a.png)
